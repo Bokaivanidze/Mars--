@@ -198,3 +198,18 @@ header{
     font-family: "Montserrat";
     text-align: start;
 }
+.last-section{
+    background-image: url(../images/Photo\ \(2\).png);
+    height: 100vh;
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last-about h1{
+    font-size: 62px;
+    position: relative;
+    top: 490px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
