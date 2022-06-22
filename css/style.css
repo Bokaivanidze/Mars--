@@ -615,3 +615,105 @@ header{
         max-width: 100%;
     }
 }
+@media (max-width: 1524px) {
+    .carousel-captiondron h5{
+        font-size: 40px;
+        color: #000000;
+        font-weight: 700;
+        font-family: "Montserrat";
+    }
+    .carousel-captiondron p{
+        width: 400px;
+        color: #92a1a5;
+        font-weight: 400;
+        font-family: "Montserrat";
+    }
+    .carousel-captiondron{
+        padding-left: 200px;
+    }
+  }
+  @media (max-width: 1407px) {
+    .carousel-captiondron h5{
+        font-size: 40px;
+        color: #000000;
+        font-weight: 700;
+        font-family: "Montserrat";
+    }
+    .carousel-captiondron p{
+        width: 300px;
+        color: #92a1a5;
+        font-weight: 400;
+        font-family: "Montserrat";
+    }
+    .imgcont{
+        background-color: #ffffff;
+        position: relative;
+        z-index: 9999;
+        width: 552px;
+        height: 552px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 18%;
+    }
+    .imgcont img{
+        width: 852px;
+        height: 852px;
+    }
+  }
+  @media (max-width: 1291px) {
+    .imgcont{
+        background-color: #ffffff;
+        position: relative;
+        z-index: 9999;
+        width: 452px;
+        height: 452px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 18%;
+    }
+    .imgcont img{
+        width: 752px;
+        height: 752px;
+    }
+  }
+  @media (max-width: 1181px) {
+    .imgcont{
+        background-color: #ffffff;
+        position: relative;
+        z-index: 9999;
+        width: 352px;
+        height: 352px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 18%;
+    }
+    .imgcont img{
+        width: 652px;
+        height: 652px;
+    }
+  }
+  @media (max-width: 1181px) {
+    .imgcont{
+        background-color: #ffffff;
+        position: relative;
+        z-index: 9999;
+        width: 252px;
+        height: 252px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 27%;
+    }
+    .imgcont img{
+        width: 452px;
+        height: 452px;
+    }
+    
+  }
