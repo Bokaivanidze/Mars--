@@ -72,6 +72,25 @@ header{
     border-radius: 50%;
     display: block;
 }
+.carousel-captiondron{
+    padding-left: 200px;
+}
+
+.carousel-captiondron h5{
+    font-size: 60px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.carousel-captiondron p{
+    width: 400px;
+    color: #92a1a5;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.carousel{
+    padding-top: 200px;
+}
 .navbar-toggler-icon {
     display: inline-block;
     width: 25px;
