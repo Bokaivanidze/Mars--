@@ -521,7 +521,30 @@ header{
    }
    
   }
-  @media (max-width: 990px){
+  @media (max-width: 573px){
+    .Fourth-section-card-1 h1{
+        width: 100%;
+        max-width: 100%;
+        font-size: 50px;
+        color: #232323;
+        font-weight: 400;
+        font-family: "Montserrat";
+        padding-top: 53px;
+        padding-left: 20px;
+    }
+    .fourth-btn{
+        margin-left: 20px ;
+    }
+}
+@media (max-width: 989px){
+    .col-lg-8{
+        width: 100%;
+        max-width: 100%;
+    }
+    .first-box2{
+        width: 100%;
+        max-width: 100%;
+    }
     .col-lg-4{
         width: 100%;
         max-width: 100%;
