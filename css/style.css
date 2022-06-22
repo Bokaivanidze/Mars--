@@ -146,70 +146,384 @@ header{
     font-weight: 700;
     font-family: "Montserrat";
 }
+
+
+
 .both{
     display: flex;
+    flex-wrap: wrap;
 }
-.box{
-    width: 30%;
-    max-width: 100%;
-    height: 60vh;
+/* first-section start */
+.firta-box1{
     background-image: url(../images/Photo.png);
-    background-position: end;
+    width: 100%;
+    max-width: 100%;
+    height: 615px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
-.about h1{
+.firta-box1 h1{
     font-size: 60px;
     color: #000000;
     font-weight: 700;
     font-family: "Montserrat";
+    padding-top: 260px;
+    padding-left: 215px;
 }
-.about p{
+.firta-box1 p{
     font-size: 14px;
     color: #92a1a5;
     font-weight: 400;
     font-family: "Montserrat";
+    padding-left: 215px;
 }
-.about{
-    padding-top: 155px;
-    padding-left: 115px;
-}
-.box-2{
-    width: 70%;
-    max-width: 100%;
-    height: 60vh;
+.first-box2{
     background-image: url(../images/Photo\ \(1\).png);
-    background-position: start;
+    width: 100%;
+    max-width: 100%;
+    height: 615px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
-.rectangle{
-    width: 45.7%;
-    height: 60vh;
-    background-color: #00000090;
+.blur{
+    width: 615px;
+    max-width: 100%;
+    height: 615px;
+    background-color: #00000064;
 }
-.rectangle h1{
-    font-size: 60px;
-    padding-right: 20px;
-    padding-top: 147px;
-    padding-left: 40px;
-    color: #ffffff;
+.first-btn{
+    width: 182px;
+    height: 57px;
+    border-radius: 29px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #000000;
     font-weight: 700;
     font-family: "Montserrat";
-    text-align: start;
+    border: none;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 40%;
+    left: 70%;
 }
+/* second-section start */
+.second-sec-h1{
+    font-size: 48px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-top: 120px;
+}
+.second-box1{
+    width: 100%;
+    max-width: 100%;
+    
+}
+.second-box1 h3{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-top: 70px;
+    padding-bottom: 130px;
+}
+.second-box1 img{
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+}
+/* three-section start */
+.three-section-card-1{
+    width: 100%;
+    max-width: 100%;
+    height: 710px;
+}
+.three-section-card-1 img{
+    width: 100%;
+    max-width: 100%;
+    height: 710px;
+}
+.three-section-card-2{
+    width: 100%;
+    max-width: 100%;
+    height: 710px;
+    background-image: url(../images/BOX\ \(2\).png);
+}
+.three-section-card-2 h1{
+    width: 100%;
+    max-width: 100%;
+    font-size: 92px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-left: 130px;
+    padding-right: 120px;
+    padding-top: 185px;
+}
+.three-section-card-2 span{
+    color: #ff343d;
+}
+.three-btn{
+    margin-top: 35px;
+    margin-left: 130px;
+    width: 182px;
+    height: 57px;
+    border-radius: 29px;
+    background-color: rgba(255,255,255,0);
+    border: 2px solid #3b3b3b;
+    color: #ffffff;
+}
+/* three-section end */
+/* Fourth-section start */
+.Fourth-section-card-1{
+    width: 100%;
+    max-width: 100%;
+    height: 870px;
+}
+.Fourth-section-card-1 h1{
+    width: 100%;
+    max-width: 100%;
+    font-size: 92px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-top: 253px;
+    padding-left: 70px;
+}
+.Fourth-section-card-1 span{
+    color: #ff343d;
+}
+.fourth-btn{
+    width: 172px;
+    height: 57px;
+    border-radius: 29px;
+    background-color: #ffffff;
+    border: 2px solid #eff2f6;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-left: 70px;
+    margin-top: 33px;
+}
+.Fourth-section-card-2{
+    width: 100%;
+    max-width: 100%;
+    height: 870px;
+}
+.Fourth-section-card-2 img{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 165px;
+}
+/* Fourth-section end */
+/* last-section */
+
+
 .last-section{
     background-image: url(../images/Photo\ \(2\).png);
-    height: 100vh;
-    background-position: start;
+    width: 100%;
+    max-width: 100%;
+    height: 1185px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.last-about h1{
-    font-size: 62px;
-    position: relative;
-    top: 490px;
+.last-about-btn{
+    padding-top: 780px;
+}
+.last-about-btn h1{
+    
+    font-size: 92px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Montserrat";
+}
+.last-btn{
+    margin-top: 38px;
+    width: 182px;
+    height: 57px;
+    border-radius: 29px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 60px;
+    color: #318f76;
+    font-weight: 700;
+    font-family: "Montserrat";
+    border: none;
+}
+
+/* last-section end*/
+/* footer start*/
+.footer-h1{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.footer-h1 h1{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 203px;
+    color: #fefefe;
+    font-weight: 700;
+    font-family: "Montserrat";
+    filter: drop-shadow(8px 13.856px 47.5px rgba(0,0,0,0.05));
+    overflow: hidden;
+}
+
+@media (max-width: 700px) {
+   .col-lg-8{
+        width: 100%;
+        max-width: 100%;
+   }
+   .col-lg-4{
+         width: 100%;
+        max-width: 100%;
+   }
+   .first-btn{
+        display: none;
+    }
+    .col-lg-3{
+        width: 100%;
+        max-width: 100%;
+    }
+    .col-lg-6{
+        width: 100%;
+        max-width: 100%;
+    }
+    .three-section-card-2 h1{
+        width: 100%;
+        max-width: 100%;
+        padding-left: 70px;
+    }
+    .three-btn{
+        margin-left: 70px;
+    }
+  }
+  @media (max-width: 400px){
+    .col-lg-8{
+        width: 100%;
+        max-width: 100%;
+   }
+   .col-lg-4{
+         width: 100%;
+        max-width: 100%;
+   }
+   .first-btn{
+        display: none;
+    }
+    .col-lg-3{
+        width: 100%;
+        max-width: 100%;
+    }
+    .col-lg-6{
+        width: 100%;
+        max-width: 100%;
+    }
+    .three-section-card-2 h1{
+        width: 100%;
+        max-width: 100%;
+        font-size: 50px;
+        padding-left: 20px;
+    }
+    .three-btn{
+        margin-left: 20px;
+    }
+    .Fourth-section-card-1 h1{
+        width: 100%;
+        max-width: 100%;
+        font-size: 50px;
+        color: #232323;
+        font-weight: 400;
+        font-family: "Montserrat";
+        padding-top: 53px;
+        padding-left: 20px;
+    }
+    .fourth-btn{
+        margin-left: 20px ;
+    }
+    .last-about-btn h1{
+        font-size: 50px;
+    }
+  }
+  @media (max-width: 420px){
+    .col-lg-8{
+        width: 100%;
+        max-width: 100%;
+   }
+   .col-lg-4{
+         width: 100%;
+        max-width: 100%;
+   }
+   .first-btn{
+        display: none;
+    }
+    .col-lg-3{
+        width: 100%;
+        max-width: 100%;
+    }
+    .col-lg-6{
+        width: 100%;
+        max-width: 100%;
+    }
+    .three-section-card-2 h1{
+        width: 100%;
+        max-width: 100%;
+        font-size: 50px;
+        padding-left: 20px;
+    }
+    .three-btn{
+        margin-left: 20px;
+    }
+    .Fourth-section-card-1 h1{
+        width: 100%;
+        max-width: 100%;
+        font-size: 50px;
+        color: #232323;
+        font-weight: 400;
+        font-family: "Montserrat";
+        padding-top: 53px;
+        padding-left: 20px;
+    }
+    .fourth-btn{
+        margin-left: 20px ;
+    }
+    .last-about-btn h1{
+        font-size: 50px;
+    }
+    .three-section-card-2{
+        margin-top: 0px;
+    }
+  }
+  @media (max-width: 1270px){
+    .three-section-card-2 h1{
+        width: 100%;
+        max-width: 100%;
+        font-size: 50px;
+        
+   }
+   
+  }
+  @media (max-width: 1270px){
+    .three-section-card-2 h1{
+        width: 100%;
+        max-width: 100%;
+        font-size: 50px;
+        
+   }
+   
+  }
+  @media (max-width: 990px){
+    .col-lg-4{
+        width: 100%;
+        max-width: 100%;
+    }
 }
